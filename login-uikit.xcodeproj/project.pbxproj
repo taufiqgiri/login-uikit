@@ -7,15 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D5D59BC8C52D5377D628B90 /* Pods_login_uikit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90802C5BF0DBB327AC45AD0B /* Pods_login_uikit.framework */; };
+		FECDBDB42B056E7200241FB0 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECDBDB32B056E7200241FB0 /* UIView+Ext.swift */; };
+		FECDBDB72B05750D00241FB0 /* CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECDBDB62B05750D00241FB0 /* CustomColors.swift */; };
+		FECDBDB92B0575BE00241FB0 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECDBDB82B0575BE00241FB0 /* UIColor+Ext.swift */; };
 		FED37D7F2B050631008B7BA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED37D7E2B050631008B7BA0 /* AppDelegate.swift */; };
 		FED37D812B050631008B7BA0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED37D802B050631008B7BA0 /* SceneDelegate.swift */; };
 		FED37D832B050631008B7BA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED37D822B050631008B7BA0 /* ViewController.swift */; };
 		FED37D862B050631008B7BA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FED37D842B050631008B7BA0 /* Main.storyboard */; };
 		FED37D882B050632008B7BA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FED37D872B050632008B7BA0 /* Assets.xcassets */; };
 		FED37D8B2B050632008B7BA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FED37D892B050632008B7BA0 /* LaunchScreen.storyboard */; };
+		FED37D962B050A51008B7BA0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED37D942B050A51008B7BA0 /* LoginView.swift */; };
+		FED37D972B050A51008B7BA0 /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FED37D952B050A51008B7BA0 /* LoginView.xib */; };
+		FED37DAE2B050C42008B7BA0 /* Gilroy-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FED37D9A2B050C41008B7BA0 /* Gilroy-Bold.ttf */; };
+		FED37DAF2B050C42008B7BA0 /* Gilroy-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FED37D9B2B050C41008B7BA0 /* Gilroy-ExtraBold.ttf */; };
+		FED37DB02B050C42008B7BA0 /* Gilroy-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FED37D9C2B050C41008B7BA0 /* Gilroy-HeavyItalic.ttf */; };
+		FED37DB12B050C42008B7BA0 /* Gilroy-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FED37D9D2B050C41008B7BA0 /* Gilroy-Heavy.ttf */; };
+		FED37DB22B050C42008B7BA0 /* Gilroy-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FED37D9E2B050C41008B7BA0 /* Gilroy-ExtraBoldItalic.ttf */; };
+		FED37DB32B050C42008B7BA0 /* Gilroy-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FED37D9F2B050C41008B7BA0 /* Gilroy-SemiBold.ttf */; };
+		FED37DB42B050C42008B7BA0 /* Gilroy-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FED37DA02B050C41008B7BA0 /* Gilroy-Light.ttf */; };
+		FED37DB52B050C42008B7BA0 /* Gilroy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FED37DA12B050C41008B7BA0 /* Gilroy-Regular.ttf */; };
+		FED37DB62B050C42008B7BA0 /* Gilroy-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FED37DA22B050C41008B7BA0 /* Gilroy-LightItalic.ttf */; };
+		FED37DB72B050C42008B7BA0 /* Gilroy-UltraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FED37DA32B050C41008B7BA0 /* Gilroy-UltraLight.ttf */; };
+		FED37DB82B050C42008B7BA0 /* Gilroy-UltraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FED37DA42B050C41008B7BA0 /* Gilroy-UltraLightItalic.ttf */; };
+		FED37DB92B050C42008B7BA0 /* Gilroy-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FED37DA52B050C41008B7BA0 /* Gilroy-BlackItalic.ttf */; };
+		FED37DBA2B050C42008B7BA0 /* Gilroy-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FED37DA62B050C41008B7BA0 /* Gilroy-Black.ttf */; };
+		FED37DBB2B050C42008B7BA0 /* Gilroy-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FED37DA72B050C42008B7BA0 /* Gilroy-Thin.ttf */; };
+		FED37DBC2B050C42008B7BA0 /* Gilroy-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FED37DA82B050C42008B7BA0 /* Gilroy-ThinItalic.ttf */; };
+		FED37DBD2B050C42008B7BA0 /* Gilroy-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FED37DA92B050C42008B7BA0 /* Gilroy-RegularItalic.ttf */; };
+		FED37DBE2B050C42008B7BA0 /* Gilroy-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FED37DAA2B050C42008B7BA0 /* Gilroy-Medium.ttf */; };
+		FED37DBF2B050C42008B7BA0 /* Gilroy-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FED37DAB2B050C42008B7BA0 /* Gilroy-BoldItalic.ttf */; };
+		FED37DC02B050C42008B7BA0 /* Gilroy-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FED37DAC2B050C42008B7BA0 /* Gilroy-MediumItalic.ttf */; };
+		FED37DC12B050C42008B7BA0 /* Gilroy-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FED37DAD2B050C42008B7BA0 /* Gilroy-SemiBoldItalic.ttf */; };
+		FED37DC32B050EED008B7BA0 /* Fontspring-DEMO-proximanovaexcn-regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = FED37DC22B050EED008B7BA0 /* Fontspring-DEMO-proximanovaexcn-regular.otf */; };
+		FED37DC52B050EFE008B7BA0 /* Fontspring-DEMO-proximanovacond-semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FED37DC42B050EFE008B7BA0 /* Fontspring-DEMO-proximanovacond-semibold.otf */; };
+		FED37DC72B050F09008B7BA0 /* Fontspring-DEMO-proximanova-bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FED37DC62B050F09008B7BA0 /* Fontspring-DEMO-proximanova-bold.otf */; };
+		FED37DCB2B0513F8008B7BA0 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED37DCA2B0513F8008B7BA0 /* CustomTextField.swift */; };
+		FED37DCD2B051416008B7BA0 /* CustomTextField.xib in Resources */ = {isa = PBXBuildFile; fileRef = FED37DCC2B051416008B7BA0 /* CustomTextField.xib */; };
+		FED37DCF2B051664008B7BA0 /* XIBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED37DCE2B051664008B7BA0 /* XIBView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8190C91104B31C0FB47DC3EE /* Pods-login-uikit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-login-uikit.debug.xcconfig"; path = "Target Support Files/Pods-login-uikit/Pods-login-uikit.debug.xcconfig"; sourceTree = "<group>"; };
+		90802C5BF0DBB327AC45AD0B /* Pods_login_uikit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_login_uikit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2A99BD51EAB4D665F917B7E /* Pods-login-uikit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-login-uikit.release.xcconfig"; path = "Target Support Files/Pods-login-uikit/Pods-login-uikit.release.xcconfig"; sourceTree = "<group>"; };
+		FECDBDB32B056E7200241FB0 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		FECDBDB62B05750D00241FB0 /* CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColors.swift; sourceTree = "<group>"; };
+		FECDBDB82B0575BE00241FB0 /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
 		FED37D7B2B050631008B7BA0 /* login-uikit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "login-uikit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FED37D7E2B050631008B7BA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FED37D802B050631008B7BA0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +62,34 @@
 		FED37D872B050632008B7BA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FED37D8A2B050632008B7BA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FED37D8C2B050632008B7BA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FED37D942B050A51008B7BA0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		FED37D952B050A51008B7BA0 /* LoginView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginView.xib; sourceTree = "<group>"; };
+		FED37D9A2B050C41008B7BA0 /* Gilroy-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Bold.ttf"; sourceTree = "<group>"; };
+		FED37D9B2B050C41008B7BA0 /* Gilroy-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-ExtraBold.ttf"; sourceTree = "<group>"; };
+		FED37D9C2B050C41008B7BA0 /* Gilroy-HeavyItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-HeavyItalic.ttf"; sourceTree = "<group>"; };
+		FED37D9D2B050C41008B7BA0 /* Gilroy-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Heavy.ttf"; sourceTree = "<group>"; };
+		FED37D9E2B050C41008B7BA0 /* Gilroy-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		FED37D9F2B050C41008B7BA0 /* Gilroy-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-SemiBold.ttf"; sourceTree = "<group>"; };
+		FED37DA02B050C41008B7BA0 /* Gilroy-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Light.ttf"; sourceTree = "<group>"; };
+		FED37DA12B050C41008B7BA0 /* Gilroy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Regular.ttf"; sourceTree = "<group>"; };
+		FED37DA22B050C41008B7BA0 /* Gilroy-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-LightItalic.ttf"; sourceTree = "<group>"; };
+		FED37DA32B050C41008B7BA0 /* Gilroy-UltraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-UltraLight.ttf"; sourceTree = "<group>"; };
+		FED37DA42B050C41008B7BA0 /* Gilroy-UltraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-UltraLightItalic.ttf"; sourceTree = "<group>"; };
+		FED37DA52B050C41008B7BA0 /* Gilroy-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-BlackItalic.ttf"; sourceTree = "<group>"; };
+		FED37DA62B050C41008B7BA0 /* Gilroy-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Black.ttf"; sourceTree = "<group>"; };
+		FED37DA72B050C42008B7BA0 /* Gilroy-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Thin.ttf"; sourceTree = "<group>"; };
+		FED37DA82B050C42008B7BA0 /* Gilroy-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-ThinItalic.ttf"; sourceTree = "<group>"; };
+		FED37DA92B050C42008B7BA0 /* Gilroy-RegularItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-RegularItalic.ttf"; sourceTree = "<group>"; };
+		FED37DAA2B050C42008B7BA0 /* Gilroy-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Medium.ttf"; sourceTree = "<group>"; };
+		FED37DAB2B050C42008B7BA0 /* Gilroy-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-BoldItalic.ttf"; sourceTree = "<group>"; };
+		FED37DAC2B050C42008B7BA0 /* Gilroy-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-MediumItalic.ttf"; sourceTree = "<group>"; };
+		FED37DAD2B050C42008B7BA0 /* Gilroy-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		FED37DC22B050EED008B7BA0 /* Fontspring-DEMO-proximanovaexcn-regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fontspring-DEMO-proximanovaexcn-regular.otf"; sourceTree = "<group>"; };
+		FED37DC42B050EFE008B7BA0 /* Fontspring-DEMO-proximanovacond-semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fontspring-DEMO-proximanovacond-semibold.otf"; sourceTree = "<group>"; };
+		FED37DC62B050F09008B7BA0 /* Fontspring-DEMO-proximanova-bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fontspring-DEMO-proximanova-bold.otf"; sourceTree = "<group>"; };
+		FED37DCA2B0513F8008B7BA0 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		FED37DCC2B051416008B7BA0 /* CustomTextField.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTextField.xib; sourceTree = "<group>"; };
+		FED37DCE2B051664008B7BA0 /* XIBView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XIBView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +97,63 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D5D59BC8C52D5377D628B90 /* Pods_login_uikit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14278C35F69A1AEEB71065EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8190C91104B31C0FB47DC3EE /* Pods-login-uikit.debug.xcconfig */,
+				E2A99BD51EAB4D665F917B7E /* Pods-login-uikit.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		322D0AEE22FEA6B109E09274 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90802C5BF0DBB327AC45AD0B /* Pods_login_uikit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FECDBDB12B056E5800241FB0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FECDBDB52B0574FF00241FB0 /* Utils */,
+				FECDBDB22B056E6000241FB0 /* Extensions */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		FECDBDB22B056E6000241FB0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FECDBDB32B056E7200241FB0 /* UIView+Ext.swift */,
+				FECDBDB82B0575BE00241FB0 /* UIColor+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FECDBDB52B0574FF00241FB0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FECDBDB62B05750D00241FB0 /* CustomColors.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		FED37D722B050631008B7BA0 = {
 			isa = PBXGroup;
 			children = (
 				FED37D7D2B050631008B7BA0 /* login-uikit */,
 				FED37D7C2B050631008B7BA0 /* Products */,
+				14278C35F69A1AEEB71065EA /* Pods */,
+				322D0AEE22FEA6B109E09274 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +168,92 @@
 		FED37D7D2B050631008B7BA0 /* login-uikit */ = {
 			isa = PBXGroup;
 			children = (
+				FECDBDB12B056E5800241FB0 /* Helpers */,
+				FED37DC82B0513BD008B7BA0 /* Components */,
+				FED37D982B050C14008B7BA0 /* Resources */,
+				FED37D922B05088E008B7BA0 /* Modules */,
+				FED37D842B050631008B7BA0 /* Main.storyboard */,
 				FED37D7E2B050631008B7BA0 /* AppDelegate.swift */,
 				FED37D802B050631008B7BA0 /* SceneDelegate.swift */,
 				FED37D822B050631008B7BA0 /* ViewController.swift */,
-				FED37D842B050631008B7BA0 /* Main.storyboard */,
 				FED37D872B050632008B7BA0 /* Assets.xcassets */,
 				FED37D892B050632008B7BA0 /* LaunchScreen.storyboard */,
 				FED37D8C2B050632008B7BA0 /* Info.plist */,
 			);
 			path = "login-uikit";
+			sourceTree = "<group>";
+		};
+		FED37D922B05088E008B7BA0 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				FED37D932B050898008B7BA0 /* Login */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		FED37D932B050898008B7BA0 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				FED37D942B050A51008B7BA0 /* LoginView.swift */,
+				FED37D952B050A51008B7BA0 /* LoginView.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		FED37D982B050C14008B7BA0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FED37D992B050C1E008B7BA0 /* fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FED37D992B050C1E008B7BA0 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FED37DA62B050C41008B7BA0 /* Gilroy-Black.ttf */,
+				FED37DA52B050C41008B7BA0 /* Gilroy-BlackItalic.ttf */,
+				FED37D9A2B050C41008B7BA0 /* Gilroy-Bold.ttf */,
+				FED37DAB2B050C42008B7BA0 /* Gilroy-BoldItalic.ttf */,
+				FED37D9B2B050C41008B7BA0 /* Gilroy-ExtraBold.ttf */,
+				FED37D9E2B050C41008B7BA0 /* Gilroy-ExtraBoldItalic.ttf */,
+				FED37D9D2B050C41008B7BA0 /* Gilroy-Heavy.ttf */,
+				FED37D9C2B050C41008B7BA0 /* Gilroy-HeavyItalic.ttf */,
+				FED37DA02B050C41008B7BA0 /* Gilroy-Light.ttf */,
+				FED37DA22B050C41008B7BA0 /* Gilroy-LightItalic.ttf */,
+				FED37DAA2B050C42008B7BA0 /* Gilroy-Medium.ttf */,
+				FED37DC22B050EED008B7BA0 /* Fontspring-DEMO-proximanovaexcn-regular.otf */,
+				FED37DC42B050EFE008B7BA0 /* Fontspring-DEMO-proximanovacond-semibold.otf */,
+				FED37DAC2B050C42008B7BA0 /* Gilroy-MediumItalic.ttf */,
+				FED37DC62B050F09008B7BA0 /* Fontspring-DEMO-proximanova-bold.otf */,
+				FED37DA12B050C41008B7BA0 /* Gilroy-Regular.ttf */,
+				FED37DA92B050C42008B7BA0 /* Gilroy-RegularItalic.ttf */,
+				FED37D9F2B050C41008B7BA0 /* Gilroy-SemiBold.ttf */,
+				FED37DAD2B050C42008B7BA0 /* Gilroy-SemiBoldItalic.ttf */,
+				FED37DA72B050C42008B7BA0 /* Gilroy-Thin.ttf */,
+				FED37DA82B050C42008B7BA0 /* Gilroy-ThinItalic.ttf */,
+				FED37DA32B050C41008B7BA0 /* Gilroy-UltraLight.ttf */,
+				FED37DA42B050C41008B7BA0 /* Gilroy-UltraLightItalic.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		FED37DC82B0513BD008B7BA0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FED37DC92B0513D9008B7BA0 /* CustomTextField */,
+				FED37DCE2B051664008B7BA0 /* XIBView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FED37DC92B0513D9008B7BA0 /* CustomTextField */ = {
+			isa = PBXGroup;
+			children = (
+				FED37DCA2B0513F8008B7BA0 /* CustomTextField.swift */,
+				FED37DCC2B051416008B7BA0 /* CustomTextField.xib */,
+			);
+			path = CustomTextField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +263,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FED37D8F2B050632008B7BA0 /* Build configuration list for PBXNativeTarget "login-uikit" */;
 			buildPhases = (
+				32D266AEE7F1BC7542BA521A /* [CP] Check Pods Manifest.lock */,
 				FED37D772B050631008B7BA0 /* Sources */,
 				FED37D782B050631008B7BA0 /* Frameworks */,
 				FED37D792B050631008B7BA0 /* Resources */,
+				0203299C99D171C2C796CA42 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,13 +316,80 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FED37DC52B050EFE008B7BA0 /* Fontspring-DEMO-proximanovacond-semibold.otf in Resources */,
+				FED37DB42B050C42008B7BA0 /* Gilroy-Light.ttf in Resources */,
+				FED37DBE2B050C42008B7BA0 /* Gilroy-Medium.ttf in Resources */,
+				FED37DAF2B050C42008B7BA0 /* Gilroy-ExtraBold.ttf in Resources */,
+				FED37DCD2B051416008B7BA0 /* CustomTextField.xib in Resources */,
+				FED37DB82B050C42008B7BA0 /* Gilroy-UltraLightItalic.ttf in Resources */,
+				FED37DBD2B050C42008B7BA0 /* Gilroy-RegularItalic.ttf in Resources */,
 				FED37D8B2B050632008B7BA0 /* LaunchScreen.storyboard in Resources */,
 				FED37D882B050632008B7BA0 /* Assets.xcassets in Resources */,
+				FED37DB32B050C42008B7BA0 /* Gilroy-SemiBold.ttf in Resources */,
+				FED37DB62B050C42008B7BA0 /* Gilroy-LightItalic.ttf in Resources */,
+				FED37DB72B050C42008B7BA0 /* Gilroy-UltraLight.ttf in Resources */,
+				FED37DB92B050C42008B7BA0 /* Gilroy-BlackItalic.ttf in Resources */,
+				FED37DAE2B050C42008B7BA0 /* Gilroy-Bold.ttf in Resources */,
+				FED37DBC2B050C42008B7BA0 /* Gilroy-ThinItalic.ttf in Resources */,
+				FED37DC12B050C42008B7BA0 /* Gilroy-SemiBoldItalic.ttf in Resources */,
+				FED37DB12B050C42008B7BA0 /* Gilroy-Heavy.ttf in Resources */,
+				FED37DBA2B050C42008B7BA0 /* Gilroy-Black.ttf in Resources */,
+				FED37DC72B050F09008B7BA0 /* Fontspring-DEMO-proximanova-bold.otf in Resources */,
+				FED37DC02B050C42008B7BA0 /* Gilroy-MediumItalic.ttf in Resources */,
+				FED37DC32B050EED008B7BA0 /* Fontspring-DEMO-proximanovaexcn-regular.otf in Resources */,
+				FED37DBF2B050C42008B7BA0 /* Gilroy-BoldItalic.ttf in Resources */,
+				FED37DB52B050C42008B7BA0 /* Gilroy-Regular.ttf in Resources */,
+				FED37DB22B050C42008B7BA0 /* Gilroy-ExtraBoldItalic.ttf in Resources */,
+				FED37D972B050A51008B7BA0 /* LoginView.xib in Resources */,
+				FED37DBB2B050C42008B7BA0 /* Gilroy-Thin.ttf in Resources */,
+				FED37DB02B050C42008B7BA0 /* Gilroy-HeavyItalic.ttf in Resources */,
 				FED37D862B050631008B7BA0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0203299C99D171C2C796CA42 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-login-uikit/Pods-login-uikit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-login-uikit/Pods-login-uikit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-login-uikit/Pods-login-uikit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32D266AEE7F1BC7542BA521A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-login-uikit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FED37D772B050631008B7BA0 /* Sources */ = {
@@ -140,7 +398,13 @@
 			files = (
 				FED37D832B050631008B7BA0 /* ViewController.swift in Sources */,
 				FED37D7F2B050631008B7BA0 /* AppDelegate.swift in Sources */,
+				FECDBDB72B05750D00241FB0 /* CustomColors.swift in Sources */,
+				FED37DCF2B051664008B7BA0 /* XIBView.swift in Sources */,
+				FED37D962B050A51008B7BA0 /* LoginView.swift in Sources */,
+				FECDBDB42B056E7200241FB0 /* UIView+Ext.swift in Sources */,
+				FECDBDB92B0575BE00241FB0 /* UIColor+Ext.swift in Sources */,
 				FED37D812B050631008B7BA0 /* SceneDelegate.swift in Sources */,
+				FED37DCB2B0513F8008B7BA0 /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,19 +551,22 @@
 		};
 		FED37D902B050632008B7BA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8190C91104B31C0FB47DC3EE /* Pods-login-uikit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 292P5QPB73;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "login-uikit/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,19 +582,22 @@
 		};
 		FED37D912B050632008B7BA0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2A99BD51EAB4D665F917B7E /* Pods-login-uikit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 292P5QPB73;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "login-uikit/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
