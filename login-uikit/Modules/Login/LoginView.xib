@@ -9,18 +9,24 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
+        <array key="Fontspring-DEMO-proximanova-bold.otf">
+            <string>FONTSPRINGDEMO-ProximaNovaBold</string>
+        </array>
         <array key="Fontspring-DEMO-proximanovacond-semibold.otf">
             <string>FONTSPRINGDEMO-ProximaNovaCondSemiboldRegular</string>
         </array>
-        <array key="Gilroy-SemiBold.ttf">
-            <string>Gilroy-SemiBold</string>
+        <array key="Gilroy-Medium.ttf">
+            <string>Gilroy-Medium</string>
         </array>
     </customFonts>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginView" customModule="login_uikit" customModuleProvider="target">
             <connections>
                 <outlet property="greetingsLabel" destination="EvY-Yq-1fQ" id="mkr-1A-wHv"/>
+                <outlet property="haveAccountLabel" destination="M6R-lB-z9H" id="bCK-K6-OKl"/>
                 <outlet property="loginAdviceLabel" destination="BrH-EX-iYf" id="NVD-yw-Gg0"/>
+                <outlet property="loginButton" destination="Gc2-Lp-i8F" id="Nsb-CP-bdQ"/>
+                <outlet property="passwordTextfield" destination="GeW-nT-zgs" id="44w-l2-hBr"/>
                 <outlet property="usernameTextfield" destination="sCa-3c-n4u" id="uIy-Oh-RaM"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -34,49 +40,107 @@
                     <rect key="frame" x="0.0" y="59" width="393" height="759"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KWi-Tw-PHH" userLabel="Container View">
-                            <rect key="frame" x="0.0" y="0.0" width="393" height="1000"/>
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="708.66666666666663"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EvY-Yq-1fQ" userLabel="Greetings Label">
-                                    <rect key="frame" x="20" y="110" width="353" height="28"/>
-                                    <fontDescription key="fontDescription" name="Gilroy-SemiBold" family="Gilroy-SemiBold" pointSize="28"/>
+                                    <rect key="frame" x="20" y="70" width="353" height="28"/>
+                                    <fontDescription key="fontDescription" name="Gilroy-Medium" family="Gilroy-Medium" pointSize="28"/>
                                     <color key="textColor" red="0.11372549019607843" green="0.20000000000000001" blue="0.30980392156862746" alpha="1" colorSpace="calibratedRGB"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BrH-EX-iYf" userLabel="Login Advice Label">
-                                    <rect key="frame" x="20" y="142" width="353" height="14.666666666666657"/>
+                                    <rect key="frame" x="20" y="102" width="353" height="14.666666666666671"/>
                                     <fontDescription key="fontDescription" name="FONTSPRINGDEMO-ProximaNovaCondSemiboldRegular" family="FONTSPRING DEMO - Proxima Nova Cond Semibold" pointSize="12"/>
                                     <color key="textColor" red="0.34901960784313724" green="0.45098039215686275" blue="0.57647058823529407" alpha="1" colorSpace="calibratedRGB"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_dashboard" translatesAutoresizingMaskIntoConstraints="NO" id="hOl-yi-ZRe">
-                                    <rect key="frame" x="82" y="156.66666666666663" width="331" height="218"/>
+                                    <rect key="frame" x="82" y="116.66666666666666" width="331" height="217.99999999999997"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="218" id="0w4-HB-Bsr"/>
                                         <constraint firstAttribute="width" constant="331" id="vtA-e8-OJV"/>
                                     </constraints>
                                 </imageView>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sCa-3c-n4u" userLabel="Username TextField" customClass="CustomTextField" customModule="login_uikit" customModuleProvider="target">
-                                    <rect key="frame" x="20" y="384.66666666666669" width="353" height="90"/>
+                                    <rect key="frame" x="20" y="344.66666666666669" width="353" height="120"/>
                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     <constraints>
-                                        <constraint firstAttribute="height" constant="90" id="Mkc-9B-z8S"/>
+                                        <constraint firstAttribute="height" constant="120" id="Mkc-9B-z8S"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GeW-nT-zgs" userLabel="Password TextField" customClass="CustomTextField" customModule="login_uikit" customModuleProvider="target">
+                                    <rect key="frame" x="20" y="474.66666666666663" width="353" height="120"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="120" id="YYY-IA-mFv"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gc2-Lp-i8F" customClass="CustomButton" customModule="login_uikit" customModuleProvider="target">
+                                    <rect key="frame" x="20" y="604.66666666666663" width="353" height="48"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="48" id="W5L-jK-nXn"/>
+                                    </constraints>
+                                </view>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M6R-lB-z9H" userLabel="Have Account Label">
+                                    <rect key="frame" x="20" y="672.66666666666663" width="353" height="0.0"/>
+                                    <fontDescription key="fontDescription" name="FONTSPRINGDEMO-ProximaNovaBold" family="FONTSPRING DEMO - Proxima Nova" pointSize="14"/>
+                                    <color key="textColor" red="0.74509803921568629" green="0.74509803921568629" blue="0.74509803921568629" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="khJ-qf-Lr6" userLabel="Copy Right View">
+                                    <rect key="frame" x="131.33333333333337" y="692.66666666666663" width="130.66666666666663" height="16"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_c_circle_outline" translatesAutoresizingMaskIntoConstraints="NO" id="Bpo-Sb-Pn9">
+                                            <rect key="frame" x="0.0" y="0.0" width="16" height="16"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="16" id="BHj-2E-HcF"/>
+                                                <constraint firstAttribute="height" constant="16" id="gNm-Kh-bh7"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SILK. all right reserved." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sit-4A-9Hn" userLabel="Copyright Label">
+                                            <rect key="frame" x="24.000000000000007" y="0.66666666666674157" width="106.66666666666669" height="14.666666666666664"/>
+                                            <fontDescription key="fontDescription" name="FONTSPRINGDEMO-ProximaNovaCondSemiboldRegular" family="FONTSPRING DEMO - Proxima Nova Cond Semibold" pointSize="12"/>
+                                            <color key="textColor" red="0.74509803921568629" green="0.74509803921568629" blue="0.74509803921568629" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstItem="Bpo-Sb-Pn9" firstAttribute="leading" secondItem="khJ-qf-Lr6" secondAttribute="leading" id="2CG-xD-XHc"/>
+                                        <constraint firstAttribute="bottom" secondItem="Bpo-Sb-Pn9" secondAttribute="bottom" id="HK6-Ad-ZzY"/>
+                                        <constraint firstItem="Sit-4A-9Hn" firstAttribute="leading" secondItem="Bpo-Sb-Pn9" secondAttribute="trailing" constant="8" id="lBX-YJ-0ZE"/>
+                                        <constraint firstItem="Bpo-Sb-Pn9" firstAttribute="top" secondItem="khJ-qf-Lr6" secondAttribute="top" id="m3L-by-9AG"/>
+                                        <constraint firstAttribute="trailing" secondItem="Sit-4A-9Hn" secondAttribute="trailing" id="oEo-K1-jJD"/>
+                                        <constraint firstItem="Sit-4A-9Hn" firstAttribute="centerY" secondItem="Bpo-Sb-Pn9" secondAttribute="centerY" id="rOw-TU-Jkh"/>
                                     </constraints>
                                 </view>
                             </subviews>
                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             <constraints>
+                                <constraint firstItem="GeW-nT-zgs" firstAttribute="leading" secondItem="KWi-Tw-PHH" secondAttribute="leading" constant="20" id="6N2-OI-XkT"/>
+                                <constraint firstAttribute="trailing" secondItem="Gc2-Lp-i8F" secondAttribute="trailing" constant="20" id="7hU-b7-dOr"/>
                                 <constraint firstItem="BrH-EX-iYf" firstAttribute="leading" secondItem="KWi-Tw-PHH" secondAttribute="leading" constant="20" id="8IN-dG-W75"/>
-                                <constraint firstItem="EvY-Yq-1fQ" firstAttribute="top" secondItem="KWi-Tw-PHH" secondAttribute="top" constant="110" id="DM0-6J-ZZD"/>
+                                <constraint firstAttribute="bottom" secondItem="khJ-qf-Lr6" secondAttribute="bottom" id="CPD-ei-qOc"/>
+                                <constraint firstItem="EvY-Yq-1fQ" firstAttribute="top" secondItem="KWi-Tw-PHH" secondAttribute="top" constant="70" id="DM0-6J-ZZD"/>
+                                <constraint firstItem="M6R-lB-z9H" firstAttribute="top" secondItem="Gc2-Lp-i8F" secondAttribute="bottom" constant="20" id="JnQ-m5-ebF"/>
                                 <constraint firstItem="sCa-3c-n4u" firstAttribute="leading" secondItem="KWi-Tw-PHH" secondAttribute="leading" constant="20" id="JpH-I4-8Nc"/>
                                 <constraint firstItem="hOl-yi-ZRe" firstAttribute="top" secondItem="BrH-EX-iYf" secondAttribute="bottom" id="KXV-IS-dWv"/>
                                 <constraint firstAttribute="trailing" secondItem="BrH-EX-iYf" secondAttribute="trailing" constant="20" id="Mur-mT-fZv"/>
                                 <constraint firstItem="sCa-3c-n4u" firstAttribute="top" secondItem="hOl-yi-ZRe" secondAttribute="bottom" constant="10" id="Qvd-Ot-7mX"/>
                                 <constraint firstAttribute="trailing" secondItem="sCa-3c-n4u" secondAttribute="trailing" constant="20" id="SMJ-Qx-NsR"/>
                                 <constraint firstAttribute="trailing" secondItem="hOl-yi-ZRe" secondAttribute="trailing" constant="-20" id="VZs-YP-5qb"/>
+                                <constraint firstItem="khJ-qf-Lr6" firstAttribute="top" secondItem="M6R-lB-z9H" secondAttribute="bottom" constant="20" id="X72-ov-tPM"/>
+                                <constraint firstItem="GeW-nT-zgs" firstAttribute="top" secondItem="sCa-3c-n4u" secondAttribute="bottom" constant="10" id="cVc-ef-o8F"/>
                                 <constraint firstItem="EvY-Yq-1fQ" firstAttribute="leading" secondItem="KWi-Tw-PHH" secondAttribute="leading" constant="20" id="e3S-N6-Juo"/>
                                 <constraint firstItem="BrH-EX-iYf" firstAttribute="top" secondItem="EvY-Yq-1fQ" secondAttribute="bottom" constant="4" id="e7H-Hb-AJW"/>
                                 <constraint firstAttribute="trailing" secondItem="EvY-Yq-1fQ" secondAttribute="trailing" constant="20" id="eFP-0n-TiX"/>
-                                <constraint firstAttribute="height" constant="1000" id="sHD-Fc-FYK"/>
+                                <constraint firstAttribute="trailing" secondItem="M6R-lB-z9H" secondAttribute="trailing" constant="20" id="g9t-UB-iN2"/>
+                                <constraint firstItem="M6R-lB-z9H" firstAttribute="leading" secondItem="KWi-Tw-PHH" secondAttribute="leading" constant="20" id="hbk-au-5VX"/>
+                                <constraint firstAttribute="trailing" secondItem="GeW-nT-zgs" secondAttribute="trailing" constant="20" id="stI-nh-aY1"/>
+                                <constraint firstItem="khJ-qf-Lr6" firstAttribute="centerX" secondItem="KWi-Tw-PHH" secondAttribute="centerX" id="wzr-Ju-hfb"/>
+                                <constraint firstItem="Gc2-Lp-i8F" firstAttribute="top" secondItem="GeW-nT-zgs" secondAttribute="bottom" constant="10" id="zC6-Bc-Hkm"/>
+                                <constraint firstItem="Gc2-Lp-i8F" firstAttribute="leading" secondItem="KWi-Tw-PHH" secondAttribute="leading" constant="20" id="zwz-oA-Z8b"/>
                             </constraints>
                         </view>
                     </subviews>
@@ -99,10 +163,11 @@
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="gLF-uN-cYC" secondAttribute="trailing" id="Xta-uI-JSh"/>
                 <constraint firstItem="gLF-uN-cYC" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="gil-eq-c5l"/>
             </constraints>
-            <point key="canvasLocation" x="-115" y="-12"/>
+            <point key="canvasLocation" x="-115.26717557251908" y="-12.67605633802817"/>
         </view>
     </objects>
     <resources>
+        <image name="ic_c_circle_outline" width="16" height="16"/>
         <image name="ic_dashboard" width="330" height="264"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

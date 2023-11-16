@@ -7,5 +7,6 @@ target 'login-uikit' do
 
   # Pods for login-uikit
   pod 'SnapKit', '~> 5.0.0'
+  pod 'Moya', '~> 15.0'
 
 end

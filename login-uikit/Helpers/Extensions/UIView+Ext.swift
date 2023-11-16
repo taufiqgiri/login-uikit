@@ -8,10 +8,10 @@
 import UIKit
 
 extension UIView {
-    func dropShadow(scale: Bool = true) {
+    func dropShadow(scale: Bool = true, opacity: Float = 0.16) {
         layer.masksToBounds = false
         layer.shadowColor = CustomColors.color_bebebe.cgColor
-        layer.shadowOpacity = 0.16
+        layer.shadowOpacity = opacity
         layer.shadowOffset = CGSize(width: 0, height: 16)
         layer.shadowRadius = 24
         layer.shouldRasterize = true
